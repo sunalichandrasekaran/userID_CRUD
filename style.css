@@ -1,0 +1,33 @@
+.avatar{
+    border-radius: 50%;
+}
+body{
+    background:  linear-gradient(to right bottom, #051937, #30275d, #6a2d79, #ab2686, #eb1280);;
+}
+.main-container{
+    background: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.details h3{
+    font-family:sans-serif;
+}
+.details p{
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+.btn{
+    cursor: pointer;
+    border-radius: 2px;
+}
+.add-username,.add-avatar{
+    padding: 4px;
+    width: 20%;
+    margin: 10px;
+    outline: 0;
+
+
+}
